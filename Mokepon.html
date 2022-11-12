@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mokepon </title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class='Seleccion_mascotas' id="SelecMascota">
+
+        <h1 class="titulo">Mokepon 🔥 💧 🌱</h1>
+
+        <h3 class="subtitulo">Elige una mascota</h3>
+
+        <div class="tarjetas" id="tarjetas">
+            <!-- <input type="radio" id='Hipodoge' name="mascota" />
+            <label class="card_mascota" for="Hipodoge">
+                <p>Hipodoge</p>
+                <img src="./img/mokepons_mokepon_hipodoge_attack.png" alt="Hipodoge foto">
+            </label>
+
+            <input type="radio" id='Capipepo' name="mascota" />
+            <label class="card_mascota" for="Capipepo">
+                <p>Capipepo</p>
+                <img src="./img/mokepons_mokepon_capipepo_attack.png" alt="Capipepo foto">
+            </label>
+
+            <input type="radio" id='Ratigueya' name="mascota" />
+            <label class="card_mascota" for="Ratigueya">
+                <p>Ratigueya</p>
+                <img src="./img/mokepons_mokepon_ratigueya_attack.png" alt="Ratigueya foto">
+            </label> -->
+        </div>
+
+        <button id="Boton-mascota">Seleccionar</button>
+
+    </section>
+
+    <section class="Seleccion_mascotas" id="SelecAtaque">
+
+        <h1 class="titulo">Mokepon 🔥 💧 🌱</h1>
+
+        <h2 class="subtitulo">Elige un ataque</h2>
+
+        <div id="contenedor_ataques" class="ataques">
+            <!-- <button id="Boton-fuego" class="ataque">Fuego 🔥</button>
+            <button id="Boton-agua" class="ataque">Agua 💧</button>
+            <button id="Boton-tierra" class="ataque">Tierra 🌱</button> -->
+        </div>
+
+        <div  id="mensajes">
+            <p id="resultado">Mucha suerte</p>
+            
+            <div id="reiniciar">
+                <button id="Boton-reinicio">Reiniciar</button>
+            </div>
+
+        </div>
+
+        <div class="conatiner_ataques">
+            <div class="ataques_jugador">
+                <p>Jugador</p>
+                <p id="vidas_jugador">0</p> 
+                <p id="mascotaJ_nombre"></p>
+                <hr>
+                <div id="Ataquesjugador"></div>
+            </div>
+
+            <div class="ataques_enemigo">
+                <p>Enemigo</p>
+                <p id="vidas_enemigo">0</p>
+                <p id="mascotaE_nombre"></p>
+                <hr>
+                <div id="Ataquesenemigo"></div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <script src="/Js/index.js"></script>
+</body>
+</html>

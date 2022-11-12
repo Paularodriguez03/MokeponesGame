@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: #F6F6C9;
+}
+
+.Seleccion_mascotas{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    color: #4FA095;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 700;
+}
+
+.subtitulo{
+    color: #4FA095;
+}
+
+.tarjetas,  .ataques{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_mascota{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 1rem;
+    background-color: #4FA095;
+    border-radius: 20px;
+    box-shadow: 3px 2px 12px 2px #b5b5b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_mascota:hover{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 1rem;
+    background-color: #BAD1C2;
+    border-radius: 20px;
+    box-shadow: 3px 2px 12px 2px #b5b5b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_mascota p{
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+}
+
+.card_mascota img{
+    width: 150px;
+    margin: auto;
+    background-color: transparent;
+}
+
+input{
+    display: none;
+}
+
+input:checked + label{
+    background-color: #153462;
+}
+
+#Boton-mascota{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #153462;
+    border: none;
+    font-weight: 600;
+    color: white;
+    margin-top: 50px;
+}
+
+#Boton-mascota:hover{
+   background-color: #4FA095;
+   color: #153462;
+   border: none;
+   font-weight: 600;
+}
+
+
+
+#SelecAtaque{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ataques{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ataque{
+    background-color: #4FA095;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    margin: 30px;
+}
+
+.ataque:hover{
+    background-color: #153462;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+#mensajes{
+    width: 400px;
+    background-color: #153462;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Boton-reinicio{
+    border: none;
+    color: white;
+    background-color: #153462;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.conatiner_ataques{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.ataques_jugador, .ataques_enemigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    background-color: #153462;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+#vidas_jugador, #vidas_enemigo{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#mascotaJ_nombre, #mascotaE_nombre{
+    color: #4FA095;
+    font-weight: 600;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
+@media(max-width: 670px){
+    .tarjetas,  .ataques{
+        display: flex;
+        flex-direction: column;
+    }
+}
