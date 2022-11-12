@@ -31,6 +31,15 @@
         <h1 class="titulo">Mokepon 🔥 💧 🌱</h1>
         <h3 class="subtitulo">Recorre el mapa con tu mascota</h3>
         <canvas id="mapa"></canvas>
+        <div class="Movimientos">
+            <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoIzquierda()">⬅️</button>
+            <div class="ejey">
+                <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoArriba()">⬆️</button>
+                <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoAbajo()">⬇️</button>
+            </div>
+            <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoDerecha()">➡️</button>
+        </div>
+        
     </section>
 
     <section class="Seleccion_ataques" id="SelecAtaque">
@@ -40,9 +49,6 @@
         <h2 class="subtitulo">Elige un ataque</h2>
 
         <div id="contenedor_ataques" class="ataques">
-            <!-- <button id="Boton-fuego" class="ataque">Fuego 🔥</button>
-            <button id="Boton-agua" class="ataque">Agua 💧</button>
-            <button id="Boton-tierra" class="ataque">Tierra 🌱</button> -->
         </div>
 
         <div  id="mensajes">

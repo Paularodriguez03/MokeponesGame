@@ -200,6 +200,25 @@ hr {
     border: 2px solid yellow;
 }
 
+.Movimientos{
+    display: flex;
+}
+
+.ejey{
+    display: flex;
+    flex-direction: column;
+}
+
+.Boton{
+    background-color: #4FA095;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    margin: 5px;
+}
+
 @media(max-width: 670px){
     .tarjetas,  .ataques{
         display: flex;
