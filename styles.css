@@ -8,7 +8,7 @@ body{
     background-color: #F6F6C9;
 }
 
-.Seleccion_mascotas{
+.Seleccion_mascotas, .Seleccion_mapa, .Seleccion_ataques{
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -194,6 +194,10 @@ hr {
     background-color: currentColor;
     border: 0;
     opacity: .25;
+}
+
+#mapa{
+    border: 2px solid yellow;
 }
 
 @media(max-width: 670px){
