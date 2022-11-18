@@ -31,7 +31,7 @@ let victoriasEnemigo = 0;
 
 let indexAtaqueJugador;
 let indexAtaqueEnemigo;
-
+new Image();
 let Hipodoge;
 let Capipepo;
 let Ratigueya;
