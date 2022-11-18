@@ -196,10 +196,6 @@ hr {
     opacity: .25;
 }
 
-#mapa{
-    border: 2px solid yellow;
-}
-
 .Movimientos{
     display: flex;
 }
