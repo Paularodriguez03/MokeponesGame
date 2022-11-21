@@ -1,0 +1,23 @@
+{
+  "name": "juegomokepon",
+  "version": "1.0.0",
+  "description": "Juego de mokepon realizado en un curso de platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paularodriguez03/MokeponesGame.git"
+  },
+  "author": "Paula Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paularodriguez03/MokeponesGame/issues"
+  },
+  "homepage": "https://github.com/Paularodriguez03/MokeponesGame#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

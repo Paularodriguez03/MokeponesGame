@@ -32,12 +32,28 @@
         <h3 class="subtitulo">Recorre el mapa con tu mascota</h3>
         <canvas id="mapa"></canvas>
         <div class="Movimientos">
-            <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoIzquierda()">⬅️</button>
+            <button class="Boton" 
+            onmouseup="detenerMovimiento()" 
+            onmousedown="moverCapipepoIzquierda()" 
+            ontouchend="detenerMovimiento()"  
+            ontouchstart="moverCapipepoIzquierda()">⬅️</button>
             <div class="ejey">
-                <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoArriba()">⬆️</button>
-                <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoAbajo()">⬇️</button>
+                <button class="Boton" 
+                onmouseup="detenerMovimiento()" 
+                onmousedown="moverCapipepoArriba()"
+                ontouchend="detenerMovimiento()"  
+                ontouchstart="moverCapipepoArriba()">⬆️</button>
+                <button class="Boton" 
+                onmouseup="detenerMovimiento()" 
+                onmousedown="moverCapipepoAbajo()"
+                ontouchend="detenerMovimiento()"  
+                ontouchstart="moverCapipepoAbajo()">⬇️</button>
             </div>
-            <button class="Boton" onmouseup="detenerMovimiento()" onmousedown="moverCapipepoDerecha()">➡️</button>
+            <button class="Boton" 
+            onmouseup="detenerMovimiento()" 
+            onmousedown="moverCapipepoDerecha()"
+            ontouchend="detenerMovimiento()"  
+            ontouchstart="moverCapipepoDerecha()">➡️</button>
         </div>
         
     </section>
@@ -81,6 +97,6 @@
 
     </section>
 
-    <script src="/Js/index.js"></script>
+    <script src="/Mokepon.js"></script>
 </body>
 </html>
